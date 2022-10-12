@@ -68,6 +68,12 @@ button {
     border-right: 2px dashed #1d1d1b;
 }
 
+.ticket-left img {
+    bottom: 1.25rem;
+    left: 1.25rem;
+    width: 38%;
+}
+
 .ticket-right {
     width: 70%;
     height: 100%;
