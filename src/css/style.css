@@ -76,3 +76,7 @@ button {
 .ticket-right>div {
     width: 40%;
 }
+
+.ticket-right p {
+    min-height: 1.5rem;
+}
