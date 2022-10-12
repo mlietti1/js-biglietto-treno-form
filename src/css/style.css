@@ -2,7 +2,8 @@ body {
     background-image: url(../img/background.jpeg);
     background-size: cover;
     background-position: center;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
 }
 
 main {
@@ -11,29 +12,34 @@ main {
 }
 
 h2 {
-    color: white;
-    font-weight: 300;
-    font-style: italic;
+    color: #1d1d1b;
+    text-shadow: 6px 0 white;
+    font-weight: 700;
     font-size: 3rem;
-    text-shadow: 2px 0px 0 black;
     text-transform: uppercase;
 }
 
 h3 {
     color: white;
-    font-weight: 300;
-    font-style: italic;
+    font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 3px 0 #1d1d1b;
 }
 
 .container-top {
     width: 50%;
     background-color: white;
     border-radius: 50px;
+    border: 2px solid #1d1d1b;
 }
 
 .container-bottom {
-    
+    width: 50%;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid #1d1d1b;
+    overflow: hidden;
+    min-height: 250px;
 }
 
 select {
@@ -47,6 +53,26 @@ input {
     border: 2px solid lightgrey;
 }
 
+label {
+    font-weight: 400;
+}
+
 button {
     border-radius: 10px;
+}
+
+.ticket-left {
+    background-color: #ec6458;
+    width: 30%;
+    height: 100%;
+    border-right: 2px dashed #1d1d1b;
+}
+
+.ticket-right {
+    width: 70%;
+    height: 100%;
+}
+
+.ticket-right>div {
+    width: 40%;
 }
