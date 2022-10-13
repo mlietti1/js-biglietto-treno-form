@@ -41,12 +41,12 @@ const btnReset = document.getElementById('annulla');
 
 btnReset.addEventListener('click', function(){
     document.getElementById('name').value = '';
-    document.getElementById('output-name').innerHTML = '';
     document.getElementById('km-percorsi').value = '';
-    document.getElementById('output-price').innerHTML = '';
-    document.getElementById('n-carrozza').innerHTML = '';
-    document.getElementById('offerta').innerHTML = '';
-    document.getElementById('code').innerHTML = '';
+    // document.getElementById('output-name').innerHTML = '';
+    // document.getElementById('output-price').innerHTML = '';
+    // document.getElementById('n-carrozza').innerHTML = '';
+    // document.getElementById('offerta').innerHTML = '';
+    // document.getElementById('code').innerHTML = '';
     ticketBox.classList.add('hide');
     ticketTitle.classList.add('hide');
 });
